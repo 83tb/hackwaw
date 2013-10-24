@@ -1,5 +1,0 @@
-# Squarespace Robots Txt
-
-Sitemap: http://www.hackwaw.com/sitemap.xml
-User-agent: *
-Disallow: /config
