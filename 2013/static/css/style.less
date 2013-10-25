@@ -81,12 +81,35 @@ body {
 		}
 	}
 
+	#faq {
+		div {
+			float: left;
+			width: 280px;
+			margin: 0 20px 0px 0;
+
+			p:last-child {
+				margin: 5px 0 15px 0;
+			}
+			p:first-child {
+				margin: 0px;
+				font-weight: bold;
+			}
+
+		}
+		div.cls {
+			clear:both; height: 10px;
+			float: none;
+			width: 100%;
+			margin: 0;
+		}
+	}
+
 }
 #footer {
 	background: #333333;
 	width: 890px;
 	margin: 0px auto;
-	padding: 50px 20px 20px 50px;
+	padding: 50px 20px 40px 50px;
 	margin-top: -7px;
 	color: #999;
 
@@ -95,7 +118,6 @@ body {
 	}
 
 	ul {
-		float: right;
 		list-style-type: none;
 		margin-top: 5px;
 		li {
